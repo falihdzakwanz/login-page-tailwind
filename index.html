@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <title>Login Page</title>
+  </head>
+  <body class="max-h-screen">
+
+    <div class="relative container min-w-full w-full md:flex font-serif">
+
+      <section class="flex flex-col justify-center items-center h-screen mx-auto md:grow md:w-1/2">
+        <form action="" method="post">
+          <div class="flex flex-col h-4/5 justify-center items-center">
+            <h2 class="text-4xl font-semibold mb-2">Log in</h2>
+            <p class="text-sm text-slate-500">Welcome back! Please enter your details.</p>
+  
+            <div class="flex flex-col w-full my-4">
+              <label for="username" class="text-base">Username</label>
+              <input type="text" name="username" id="username" placeholder="Username" required minlength="6" class="input-field" />
+  
+              <label for="password" class="mt-2">Password</label>
+              <input type="password" name="password" id="password" placeholder="Password" required minlength="6"  class="input-field" />
+            </div>
+  
+            <a href="" class="text-xs text-blue-600 mb-3 self-start">Forgot Password?</a>
+  
+            <button type="submit" class="w-full h-10 shadow-md bg-blue-500 self-center text-white text-base rounded-lg p-2">Log in</button>
+  
+            <p class="text-xs mt-3 text-center">Doesn't have account? <a href="" class="text-blue-500">Sign Up</a></p>
+          </div>
+        </form>
+      </section>
+
+      <!-- md section start -->
+      <section class="hidden md:block md:grow md:w-1/2">
+          <img src="dist/img/landscape.jpg" alt="section image" class="min-h-screen max-h-screen">
+      </section>
+      <!-- md section end -->
+
+      <footer class="absolute w-full bg-blue-500 text-center text-white p-1.5 bottom-0 font-medium">
+        <p>&copy; Falih Dzakwan Zuhdi 2023</p>
+      </footer>
+    </div>
+
+
+  </body>
+</html>

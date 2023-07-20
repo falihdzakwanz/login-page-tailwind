@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input-field {
+    @apply h-10 px-3 rounded-lg shadow border border-slate-200 placeholder:italic hover:bg-slate-100 focus:outline-none focus:ring focus:border-0 invalid:ring-red-500;
+  }
+}
